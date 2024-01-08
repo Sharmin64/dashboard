@@ -1,0 +1,107 @@
+/* banner section  */
+/*  */
+.banner {
+  position: relative;
+  width: 100vw;
+  /* text-align: center; */
+  margin-top: 5em;
+  margin-left: 8em;
+  align-items: center;
+  justify-content: center;
+}
+.banner img {
+  width: fit-content;
+  /* background-image: linear-gradient(to right, rgba(19, 6, 6, 0) rgb(59, 56, 56)) */
+}
+.first-section {
+  position: absolute;
+  z-index: 10px;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 40%;
+  opacity: 34px;
+  transform: translate(-50%, -50%);
+}
+.first-section h4 {
+  font-size: 2em;
+  font-weight: 400;
+}
+.first-section h1 {
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 5px;
+  word-break: break-all;
+}
+
+/* second section  */
+.second-div {
+  width: 100%;
+  padding-left: 6em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+.second-div img {
+  width: 50%;
+  margin: 0 auto;
+  right: 3em;
+}
+h2 {
+  width: 60%;
+  text-align: center;
+  padding-left: 6em;
+  color: crimson;
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 5px;
+  top: 770px;
+  left: 608px;
+}
+
+h6 {
+  font-size: 1.6em;
+  text-align: center;
+  color: crimson;
+  font-weight: 700;
+  line-height: 3px;
+  /* padding-left: 6em; */
+}
+h5 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 3px;
+}
+.contain {
+  width: fit-content;
+  margin-top: 4em;
+}
+.image-content {
+  background-image: url("../slider_image/happyNewImg/Vectorrr.png");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  text-align: left;
+  padding-left: 8em;
+  padding-top: 6em;
+  color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6.6em;
+}
+.image-content h3 {
+  font-size: 4em;
+  font-weight: 500;
+  word-wrap: break-word;
+  margin-bottom: 4px;
+}
+
+.image-content p {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 5px;
+  word-wrap: break-word;
+}
