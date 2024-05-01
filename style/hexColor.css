@@ -22,10 +22,21 @@ body {
   justify-content: center;
   align-items: center;
 }
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
 
 input {
   padding: 5px 10px;
   margin-top: 1em;
+  display: inline-flex;
+}
+
+.copy-btn {
+  padding: 10px 10px;
+  display: flex;
 }
 
 button {

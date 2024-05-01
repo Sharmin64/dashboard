@@ -9,7 +9,12 @@
   <body>
     <div id="root" class="container">
       <h1>This will change the color of website.</h1>
-      <input type="text" id="output" disabled value="#000000" />
+      <div class="btn-container">
+        <input type="text" id="output" disabled value="#000000" />
+        <button class="copy-btn" id="copy-button" title="copy to clipboard">
+          Copy
+        </button>
+      </div>
       <button type="btn" id="change-btn">Change Color</button>
     </div>
     <script src="./slide_js/hexColor.js"></script>
